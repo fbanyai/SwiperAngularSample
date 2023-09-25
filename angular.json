@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "SwiperSample": {
+    "SwiperAngularSample": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "SwiperSample:build:production"
+              "browserTarget": "SwiperAngularSample:build:production"
             },
             "development": {
-              "browserTarget": "SwiperSample:build:development"
+              "browserTarget": "SwiperAngularSample:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "SwiperSample:build"
+            "browserTarget": "SwiperAngularSample:build"
           }
         },
         "test": {
